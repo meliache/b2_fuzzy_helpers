@@ -1,9 +1,16 @@
 
-Fuzzy basf2 help scripts
-========================
+``b2_fuzzy_helpers``: Fuzzy basf2 help scripts
+===============================================
 
 Basf2 help scripts for easily finding a module or variable description from the
 command line with an incremental fuzzy search via fzf_.
+
+Demo session
+------------
+
+.. image:: https://asciinema.org/a/zGC6F2TpNmBdXORbgm9d4Me4K.svg
+   :target: https://asciinema.org/a/zGC6F2TpNmBdXORbgm9d4Me4K
+   :alt: b2help-modules and b2help-variables demo session
 
 Install
 -------
