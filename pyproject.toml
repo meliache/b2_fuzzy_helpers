@@ -1,0 +1,14 @@
+[build-system]
+requires = ["flit_core >=2,<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.flit.metadata]
+module = "b2_fuzzy_helpers"
+author = "Michael Eliachevitch"
+author-email = "meliache@uni-bonn.de"
+home-page = "https://github.com/meliache/b2_fuzzy_helpers"
+classifiers = ["License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)"]
+requires = ["iterfzf >= 0.5.0.20.0"]
+
+[tool.flit.scripts]
+b2help-variables = "b2_fuzzy_helpers.b2help_variables:fuzzy_find_and_describe_variable"
