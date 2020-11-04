@@ -12,3 +12,4 @@ requires = ["iterfzf >= 0.5.0.20.0"]
 
 [tool.flit.scripts]
 b2help-variables = "b2_fuzzy_helpers.b2help_variables:fuzzy_find_and_describe_variable"
+b2help-modules = "b2_fuzzy_helpers.b2help_modules:fuzzy_find_and_describe_module"
