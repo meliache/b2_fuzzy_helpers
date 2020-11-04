@@ -15,6 +15,8 @@ Demo session
 Install
 -------
 
+First, make sure you have basf2 set up. Then, there are two ways how to install the package:
+
 Easiest: Installation from github
 
   You can directly install the package with pip from github via
