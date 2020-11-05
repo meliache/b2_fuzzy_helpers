@@ -36,7 +36,15 @@ Developer install
       cd b2_fuzzy_helpers
       flit install --user
 
-  Optionally add the ``-s`` option to install with symbolic links (editable).
+  Optionally add the ``-s`` option to install via symbolic links (editable).
+
+If the scripts are still not found after installation, make sure that your ``~/.local/bin`` directory is in the ``PATH``. If not, you can add it by adding the following line to your shell init file (e.g. ``~/.bashrc``):
+
+.. code-block:: bash
+
+    export PATH=$HOME/.local/bin:$PATH
+
+and ``source`` the file again or open a new terminal.
 
 Usage
 -----
