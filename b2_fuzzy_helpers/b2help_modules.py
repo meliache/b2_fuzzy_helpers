@@ -3,7 +3,7 @@
 Helper script to quickly find module descriptions in basf2
 """
 from iterfzf import iterfzf
-print("Loading basf2…")
+print("Loading basf2…", end="\r")
 import basf2
 
 
