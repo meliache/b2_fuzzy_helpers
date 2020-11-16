@@ -4,6 +4,7 @@ Helper script to quickly find variable descriptions in basf2
 """
 
 from iterfzf import iterfzf
+print("Loading variable manager…")
 from variables import variables as vm
 
 
