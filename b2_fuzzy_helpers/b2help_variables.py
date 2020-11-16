@@ -8,9 +8,17 @@ from variables import variables as vm
 
 
 def fuzzy_find_and_describe_variable() -> None:
-    variable_name = iterfzf(vm.getNames())
-    description = vm.getVariable(variable_name).description
-    print(f"Variable: {variable_name}\nDescription: {description}")
+    variables = vm.getVariables()
+    variable_info_dict = {
+        var.name: {
+            "group": var.group,
+            "description": var.description,
+        }
+        for var in variables
+    }
+    var_name = iterfzf(variable_info_dict.keys())
+    var_info = variable_info_dict[var_name]
+    print(f"Variable: {var_name}\nGroup: {var_info['group']}\nDescription: {var_info['description']}")
 
 
 if __name__ == '__main__':
