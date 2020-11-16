@@ -8,8 +8,8 @@ command line with an incremental fuzzy search via fzf_.
 Demo session
 ------------
 
-.. image:: https://asciinema.org/a/zGC6F2TpNmBdXORbgm9d4Me4K.svg
-   :target: https://asciinema.org/a/zGC6F2TpNmBdXORbgm9d4Me4K
+.. image:: https://asciinema.org/a/HyiOhmQB0EKFs6kSpDuac1dVJ.svg
+   :target: https://asciinema.org/a/HyiOhmQB0EKFs6kSpDuac1dVJ
    :alt: b2help-modules and b2help-variables demo session
 
 Install
