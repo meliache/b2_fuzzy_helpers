@@ -10,7 +10,11 @@ Demo session
 
 .. image:: https://asciinema.org/a/HyiOhmQB0EKFs6kSpDuac1dVJ.svg
    :target: https://asciinema.org/a/HyiOhmQB0EKFs6kSpDuac1dVJ
-   :alt: b2help-modules and b2help-variables demo session
+   :alt: b2fuzzy-modules and b2fuzzy-variables demo session
+
+   Demo session. Note: In the latest version I renamed the fuzzy helper scripts
+   from `b2help-...` to `b2fuzzy-variables` and `b2fuzzy-modules` to avoid name
+   conflicts with the new built-in basf2 help scripts starting with `b2help-`.
 
 Install
 -------
@@ -51,8 +55,8 @@ Usage
 
 The package installs the scripts
 
-- ``b2help-variables``
-- ``b2help-modules``
+- ``b2fuzzy-variables``
+- ``b2fuzzy-modules``
 
 After installing, you can run these commands from terminal, but rememeber to set
 up basf2 first. You will be presented a list of candidates (modules/variables).
