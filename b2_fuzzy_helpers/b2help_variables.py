@@ -22,7 +22,7 @@ def get_variables(
     print("Loading variable manager…", end="\r")
     from variables import variables as vm
 
-    return list(vm.getVariables())
+    return [v for v in vm.getVariables()]
 
 
 def fuzzy_find_and_describe_variable() -> None:
